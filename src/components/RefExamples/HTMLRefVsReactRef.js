@@ -20,7 +20,7 @@ render()
 }
 }
 
-class PersonVsDivBoi extends React.Component {
+class HTMLRefVsReactRef extends React.Component {
     setPersonRef = ref => {
         this.personRef = ref;
 
@@ -49,4 +49,4 @@ class PersonVsDivBoi extends React.Component {
     }
 }
 
-export default PersonVsDivBoi;
+export default HTMLRefVsReactRef;
