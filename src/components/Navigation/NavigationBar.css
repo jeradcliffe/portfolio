@@ -3,20 +3,10 @@
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
-    
-    height: auto;
-    border: 1px solid white;
-    flex: 4;
+    height: 100%;
 }
 
 .nav-bar__link {
-    color: black;
-    font-weight: bold;
-    font-size: 1.25em;
-    text-decoration: none;
-    padding-right: 10px;
-}
-
-.nav-bar__link:hover {
-    color: white;
+    height: 100%;
+    border-radius: 0px;
 }

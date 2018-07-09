@@ -8,10 +8,10 @@ import HTMLRefVsReactRef from '../RefExamples/HTMLRefVsReactRef';
 const Body = () => {
   return(
     <div className="body">
-      <Switch>
-        <Route exact path="/" component={Home} />
-        <Route exact path="/htmlRefVsReactRef" component={HTMLRefVsReactRef} />
-      </Switch>
+    <Switch>
+      <Route exact path="/" component={Home} />
+      <Route exact path="/htmlRefVsReactRef" component={HTMLRefVsReactRef} />
+    </Switch>
     </div>
   );
 };

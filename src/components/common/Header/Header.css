@@ -1,10 +1,7 @@
 .header {
     display: flex;
     flex-direction: row;
-
     height: 50px;
-    padding: 20px;
-    
     color: black;
     background-color: aqua;
   }
