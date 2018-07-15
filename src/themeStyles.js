@@ -1,14 +1,7 @@
 import purple from '@material-ui/core/colors/purple';
 import green from '@material-ui/core/colors/green';
 
-let imgUrl = '../../public/bricks.jpg'    
-
 export const themeStyles = {
-    root: {
-        backgroundImage: 'url(' + imgUrl + ')',
-        backgroundSize: 'cover',
-        overflow: 'hidden',
-    },
     palette: {
         primary: purple,
         secondary: green,
