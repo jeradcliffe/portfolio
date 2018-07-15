@@ -2,11 +2,11 @@ import React from 'react';
 
 import './App.css';
 import Body from '../Router/Body';
-import Header from '../common/Header/Header';
+import NavigationBar from '../Navigation/NavigationBar';
 
 const App = () => (
     <div className="app">
-        <Header />
+        <NavigationBar />
         <Body />  
     </div>
 );
