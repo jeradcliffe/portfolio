@@ -11,10 +11,10 @@ const NavigationBar = () => {
             <Link to="/" className="nav-link">
                 <FaHome className="navbar__link__icon" />
             </Link>
+
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
                 <span className="navbar-toggler-icon"></span>
             </button>
-
 
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav mr-auto">
@@ -26,11 +26,9 @@ const NavigationBar = () => {
                             <Link to="/htmlRefVsReactRef" className="dropdown-item">Demo3</Link>
                         </div>
                     </li>
+
                     <li className="nav-item">
-                        <Link to="/" className="nav-link">Nav Link 3</Link>
-                    </li>
-                    <li className="nav-item">
-                        <Link to="/" className="nav-link">Nav Link 4</Link>
+                        <Link to="/" className="nav-link">Nav Link</Link>
                     </li>
                 </ul>
 
@@ -44,7 +42,6 @@ const NavigationBar = () => {
                 </div>
             </div>
         </nav>
-
     );
 };
 
